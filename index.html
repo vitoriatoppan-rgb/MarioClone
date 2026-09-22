@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favcon.png">
+    <script src="js/script.js" defer></script>
+    <title>Mario Jump</title>
+</head>
+<body>
+    <div class="jogo">
+        <div class="hud">
+            <div class="pontos">Pontos: 0</div>
+            <div class="fase">Fase: 1/5</div>
+        </div>
+        <div>
+            <img src="img/nuvempx.png" class="clouds">
+            <img src="img/nuvempx2.png" class="clouds2">
+            <img src="img/winx.gif" class="mario">
+            <img src="img/monstro.png" class="pipe">
+            <img src="img/monstro.png" class="pipe2">
+                <button class="botao-final" id="botaoFinal" onclick="irParaFase2()">
+                IR PARA FASE 2
+                </button>
+        </div>
+        <div class="perdeu">
+        <div class="perdeu-conteudo">
+            <h2 class="pontos-finais">Você fez 0 pontos!</h2>
+            <button class="btn-reiniciar" onclick="location.reload()">Jogar Novamente</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
